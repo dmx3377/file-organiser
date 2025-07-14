@@ -1,6 +1,6 @@
 ## BSD 3-Clause License
 
-### Copyright © 2025, David Maj/DS Software
+### Copyright © 2025, David Maj/DMx Software
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
