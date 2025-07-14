@@ -74,3 +74,6 @@ FILE_EXTENSIONS = {
 
 ## Licensing
 This project is licensed under the *BSD 3-Clause License*. For more information, see [LICENSE.md](/LICENSE.md).
+
+### [Changelog](/CHANGELOG.md)
+### [Contributing Guidelines](/CONTRIBUTING.md)
