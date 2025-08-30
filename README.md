@@ -23,7 +23,7 @@ A simple yet powerful Python script to automatically organise files in a directo
     ```
     OR
     
-    Download `smart_organiser.py` to your computer.
+    [Download](https://gitlab.com/dmxsoftware/file-organiser/-/raw/main/smart_organiser.py?ref_type=heads&inline=false) `smart_organiser.py` to your computer.
 
 2.  **Run the script from your terminal:**
 
@@ -62,18 +62,18 @@ For example, if you want to add a new category for `Fonts` and sort `.ttf` and `
 FILE_EXTENSIONS = {
     "Images": [".jpg", ".jpeg", ".png", ...],
     "Documents": [".pdf", ".docx", ...],
-    "Audio": [...],
-    "Video": [...],
+    "Audio": [".mp3",...],
+    "Video": [".mp4",...],
     "Archives": [...],
-    "Scripts": [...],
+    "Scripts": [".lua", ".py", ...],
     "Executables": [...],
     "Fonts": [".ttf", ".otf"], # <-- New Category
-    "Other": [] 
+    "Other": [] # <-- Other things can go here if they do not fit the above categories.
 }
 ```
 
 ## Licensing
 This project is licensed under the *BSD 3-Clause License*. For more information, see [LICENSE.md](/LICENSE.md).
-
+___
 ### [Changelog](/CHANGELOG.md)
 ### [Contributing Guidelines](/CONTRIBUTING.md)
