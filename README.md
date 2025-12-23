@@ -1,3 +1,6 @@
+> [!NOTE]
+> This repository is a clone from [the original GitLab repo](https://gitlab.com/dmxsoftware/file-organiser). However, this one **will be the one in current maintenance.** Consider the one on GitLab *dormant*.
+
 # Smart File Organiser
 
 A simple yet powerful Python script to automatically organise files in a directory into categorised subfolders based on their file extension. Perfect for cleaning up messy `Downloads` or `Documents` folders.
