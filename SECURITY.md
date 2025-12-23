@@ -2,7 +2,8 @@
 
 Security is a top priority in all my projects. Despite careful design and testing, vulnerabilities can occasionally occur. This policy outlines how to responsibly report security issues and what to expect in terms of response.
 
---- <!-- ADD SUPPORTED VERSIONS ?? -->
+--- 
+<!-- ADD SUPPORTED VERSIONS ?? -->
 
 ## Reporting a Vulnerability
 
@@ -20,7 +21,7 @@ If you discover a security issue, please report it responsibly. Depending on the
 
 If the vulnerability is **critical**, email me directly using the link below:
 
-[<img src="https://cdn.dmx3377.uk/email_button.svg" alt="Email me" width="125"/>](mailto:david@dmx3377.uk?subject=Security%20Vulnerability)
+[<img src="https://cdn.dmx3377.uk/email_button.svg" alt="Email me"/>](mailto:david@dmx3377.uk?subject=Security%20Vulnerability)
 
 Please include:
 
