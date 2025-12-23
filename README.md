@@ -1,7 +1,8 @@
 > [!NOTE]
-> This repository is a clone from [the original GitLab repo](https://gitlab.com/dmxsoftware/file-organiser). However, this one **will be the one in current maintenance.** Consider the one on GitLab *dormant*.
-
-# Smart File Organiser
+> This repository is a clone from [the original GitLab repo](https://gitlab.com/dmxsoftware/file-organiser). However, this one **will be the one in current maintenance.** Consider the one on GitLab *deprecated*.
+---
+![logo](https://gitlab.com/uploads/-/system/project/avatar/71627009/FO_Icon.jpg?width=128) <!-- File Organiser logo --> 
+# File Organiser
 
 A simple yet powerful Python script to automatically organise files in a directory into categorised subfolders based on their file extension. Perfect for cleaning up messy `Downloads` or `Documents` folders.
 
@@ -21,12 +22,9 @@ A simple yet powerful Python script to automatically organise files in a directo
 
 1.  **Clone the repository or download the script:**
     ```bash
-    git clone gitlab.com/dmxsoftware/file-organiser
+    git clone github.com/dmx3377/file-organiser
     cd file-organiser
     ```
-    OR
-    
-    [Download](https://gitlab.com/dmxsoftware/file-organiser/-/raw/main/smart_organiser.py?ref_type=heads&inline=false) `smart_organiser.py` to your computer.
 
 2.  **Run the script from your terminal:**
 
@@ -57,7 +55,7 @@ The script scans all files in the specified `target_directory`. For each file, i
 
 ## Customisation
 
-You can easily customise the organisation logic by editing the `FILE_EXTENSIONS` dictionary at the top of the `smart_organiser.py` script.
+You can easily customise the organisation logic by editing the `FILE_EXTENSIONS` dictionary at the top of the `smart_organiser.py` script in an IDE or text editor.
 
 For example, if you want to add a new category for `Fonts` and sort `.ttf` and `.otf` files into it, you would modify the dictionary like this:
 
@@ -69,7 +67,7 @@ FILE_EXTENSIONS = {
     "Video": [".mp4",...],
     "Archives": [...],
     "Scripts": [".lua", ".py", ...],
-    "Executables": [...],
+    "Executables": [".exe",...],
     "Fonts": [".ttf", ".otf"], # <-- New Category
     "Other": [] # <-- Other things can go here if they do not fit the above categories.
 }
