@@ -10,7 +10,7 @@ FILE_EXTENSIONS = {
     "Video": [".mp4", ".mov", ".avi", ".mkv", ".wmv", ".flv"],
     "Archives": [".zip", ".rar", ".tar", ".gz", ".7z"],
     "Scripts": [".py", ".js", ".sh", ".bat", ".html", ".css"],
-    "Executables": [".exe", ".msi", ".dmg", ".app"],
+    "Executables": [".exe", ".msi"],
     "Other": []  # fallback category
 }
 
@@ -48,7 +48,7 @@ def organise_folder(target_directory: Path):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="A smart file organizer that sorts files into categorised folders based on their extension."
+        description="A smart file organiser that sorts files into categorised folders based on their extension."
     )
     parser.add_argument("target_directory", type=str, help="Path to the directory to organise.")
     args = parser.parse_args()
@@ -57,3 +57,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
