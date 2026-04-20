@@ -1,5 +1,5 @@
 > [!NOTE]
-> This repository is a clone from [the original GitLab repo](https://gitlab.com/dmxsoftware/file-organiser). However, this one **will be the one in current maintenance.** Consider the one on GitLab *deprecated*.
+> This repository is no longer in maintenance. Errors may be present and may not be updated (unless if it is a security risk).
 ---
 ![logo](https://gitlab.com/uploads/-/system/project/avatar/71627009/FO_Icon.jpg?width=128) <!-- File Organiser logo --> 
 # File Organiser
