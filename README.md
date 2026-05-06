@@ -58,7 +58,7 @@ FILE_EXTENSIONS = {
 ```
 
 ## Licensing
-This project is licensed under the BSD 2-Clause License. For more information, see LICENSE.md.
+This project is licensed under the MIT License. For more information, see [LICENSE.md](LICENSE.md).
 
 
 <!-- line break -->
